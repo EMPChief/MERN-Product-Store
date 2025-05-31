@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+
+
+# Crawl-delay for all bots
+Crawl-delay: 1
+
+# Allow access to CSS and JS files
+Allow: /static/
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+
+# Disallow admin or sensitive areas (if any in the future)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow common SEO files
+Allow: /favicon.ico
+Allow: /apple-touch-icon.png
+Allow: /android-chrome-*.png 
